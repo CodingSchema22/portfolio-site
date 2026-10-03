@@ -1,0 +1,3 @@
+We use useContext where i need data
+create context is connected all files like sender or receiver both
+used for update and provide data
