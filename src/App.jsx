@@ -265,11 +265,11 @@ function App() {
               whileHover={{ rotate: 8 }}
               className="flex h-10 w-10 items-center justify-center rounded-full bg-[#24132f] text-sm font-bold text-white shadow-lg shadow-purple-200"
             >
-              F
+              GF
             </motion.span>
 
             <span className="text-[17px] font-semibold tracking-[-0.02em]">
-              Fatima<span className="text-[#8b5cf6]">.</span>
+             Ghulam Fatima<span className="text-[#8b5cf6]">.</span>
             </span>
           </motion.button>
 
@@ -431,7 +431,7 @@ function App() {
                 variants={fadeUp}
                 className="mt-9 max-w-[570px] text-[16px] leading-8 text-[#746a80] sm:text-[17px]"
               >
-                I'm Fatima Shahzad, a Web Developer & MERN Stack Developer
+                I'm Ghulam Fatima, a Web Developer & MERN Stack Developer
                 focused on creating modern, responsive and user-friendly web
                 applications.
               </motion.p>
@@ -574,7 +574,7 @@ function App() {
                         </p>
 
                         <h3 className="mt-2 text-2xl font-semibold tracking-tight text-[#27182f]">
-                          Fatima Shahzad
+                          Ghulam Fatima
                         </h3>
                       </div>
 
@@ -925,7 +925,7 @@ function App() {
       transition={{ duration: 0.6 }}
       className="mb-14"
     >
-      <span className="text-sm font-semibold uppercase tracking-wider text-blue-600">
+      <span className="text-sm font-semibold uppercase tracking-wider text-purple-600">
         My Projects
       </span>
 
@@ -957,7 +957,7 @@ function App() {
         <motion.article
           key={project.id}
           variants={projectCard}
-          className="group overflow-hidden rounded-2xl border border-blue-100 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+          className="group overflow-hidden rounded-2xl border border-purple-100 bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
         >
 
           {/* =========================
@@ -968,7 +968,7 @@ function App() {
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="block overflow-hidden bg-blue-50"
+            className="block overflow-hidden bg-purple-50"
           >
             <div className="aspect-[16/10] overflow-hidden">
 
@@ -995,7 +995,7 @@ function App() {
 
             <div className="mb-3 flex items-center justify-between">
 
-              <span className="text-xs font-semibold text-blue-600">
+              <span className="text-xs font-semibold text-purple-600">
                 {String(index + 1).padStart(2, "0")}
               </span>
 
@@ -1008,7 +1008,7 @@ function App() {
 
             {/* Title */}
 
-            <h3 className="text-xl font-bold text-gray-900 transition-colors duration-300 group-hover:text-blue-600">
+            <h3 className="text-xl font-bold text-gray-900 transition-colors duration-300 group-hover:text-purple-600">
               {project.title}
             </h3>
 
@@ -1028,7 +1028,7 @@ function App() {
 
                 <span
                   key={tech}
-                  className="rounded-full bg-blue-50 px-3 py-1.5 text-xs font-medium text-blue-600"
+                  className="rounded-full bg-purple-50 px-3 py-1.5 text-xs font-medium text-purple-600"
                 >
                   {tech}
                 </span>
@@ -1044,7 +1044,7 @@ function App() {
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-blue-600 transition-all duration-300 hover:gap-3"
+              className="mt-6 inline-flex items-center gap-2 text-sm font-semibold text-black-600 transition-all duration-300 hover:gap-3"
             >
               View Project
               <span>↗</span>
@@ -1068,7 +1068,7 @@ function App() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
-      className="mt-14 flex flex-col items-center justify-between gap-5 rounded-2xl border border-blue-100 bg-blue-50 p-7 sm:flex-row sm:p-8"
+      className="mt-14 flex flex-col items-center justify-between gap-5 rounded-2xl border border-purple-100 bg-purple-50 p-7 sm:flex-row sm:p-8"
     >
 
       <div>
@@ -1088,7 +1088,7 @@ function App() {
         rel="noopener noreferrer"
         whileHover={{ scale: 1.03 }}
         whileTap={{ scale: 0.97 }}
-        className="inline-flex shrink-0 items-center gap-2 rounded-lg bg-blue-600 px-5 py-3 text-sm font-semibold text-white transition-colors duration-300 hover:bg-blue-700"
+        className="inline-flex shrink-0 items-center gap-2 rounded-lg bg-purple-600 px-5 py-3 text-sm font-semibold text-white transition-colors duration-300 hover:bg-purple-700"
       >
         GitHub
         <span>↗</span>
@@ -1409,7 +1409,7 @@ function App() {
       <footer className="border-t border-purple-100 bg-white px-5 py-8 sm:px-8 lg:px-12">
         <div className="mx-auto flex max-w-[1380px] flex-col justify-between gap-4 text-center sm:flex-row sm:text-left">
           <p className="text-xs text-[#91869a]">
-            © 2026 Fatima Shahzad. All rights reserved.
+            © 2026 Ghulam Fatima. All rights reserved.
           </p>
 
           <motion.button
