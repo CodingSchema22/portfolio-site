@@ -38,11 +38,11 @@ const projects = [
   },
   {
     id: "04",
-    title: "Job Information App",
+    title: "Self Growming",
     category: "React Application",
     description:
       "A responsive self update application for browsing, searching and exploring opportunities to enhance yourself.",
-    image: "/images/self-growming",
+    image: "/images/self-growming.JPG",
     technologies: ["React", "JavaScript", "CSS"],
     link: "https://selfgroming.vercel.app/",
   },
